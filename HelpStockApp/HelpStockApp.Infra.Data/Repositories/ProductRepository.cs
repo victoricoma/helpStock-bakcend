@@ -1,10 +1,11 @@
 ﻿using HelpStockApp.Domain.Entities;
+using HelpStockApp.Domain.Interfaces;
 using HelpStockApp.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace HelpStockApp.Infra.Data.Repositories
 {
-    public class ProductRepository
+    public class ProductRepository : IProductRepository
     {
         ApplicationDbContext _productContext;
         public ProductRepository(ApplicationDbContext context)
