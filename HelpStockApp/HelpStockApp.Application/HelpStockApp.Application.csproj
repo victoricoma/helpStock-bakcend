@@ -15,4 +15,8 @@
     <ProjectReference Include="..\HelpStockApp.Domain\HelpStockApp.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Products\" />
+  </ItemGroup>
+
 </Project>
